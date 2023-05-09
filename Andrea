@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1> <font color="blue">¡No esperes más!</h1><!-- HTML --></font>
+
+<h2>Escríbenos a través del siguiente formulario y te contactaremos para resolver tus dudas sobre nuestros bootcamps o cursos.
+
+
+<h2>Debes incluir
+
+<ol> 
+<li>Nombre</li>
+<li>Apellido</li>
+<li>Correo electrónico</li>
+<li>Celular</li>
+<li>Medio de contacto</li>
+<li>Curso de interés</li>
+</ol>
+
+<h1>Formulario</h1>
+
+<form action="/action_page.php">
+  <label for="fname">Nombre:</label>
+  <input type="text" id="fname""required" name="fname">
+  
+  <label for="lname">Apellido:</label>
+  <input type="text" id="lname""required" name="lname">
+  <p> 
+  <label for="mail">Correo electónico:</label>
+  <input type="text" id="mail""required" name="mail">
+   
+  <label for="phone">Celular:</label>
+  <input type="numbers" id="" "required"><br><br>
+  
+    <p> 
+  <label for="contact">Medio de contacto:</label>
+  <select> 
+    <option></option>
+  <option>Celular</option>
+  <option>Correo</option>
+  <option>WhatsApp</option>
+  </select><br><br>
+  
+  <p> 
+  <label for="course">Curso de interés:</label>
+  <select> 
+    <option></option>
+  <option>Desarrollo Web</option>
+  <option>Analisís de datos</option>
+ </select><br><br>
+  
+  <p> 
+  <label for="notes">¿Estás interesado/a en otro curso? Escribe aquí:</label>
+  <input type="notes" ></textarea><br><br>
+ 
+    <p> 
+  <input type="submit" value="Enviar">
+</form>
+
+<h2>Para más información ingresar a :
+
+<a href="https://bit.institute/G?A=Contacto-Academia-Progragamacion">BIT</a>
+
+</body>
+</html>
